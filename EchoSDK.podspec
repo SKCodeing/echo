@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
     'EchoSDKResource' => ['Sources/Resources/**/*']
   }
 
-  s.dependency "CocoaAsyncSocket"
+  # s.dependency "CocoaAsyncSocket"
 
   # 核心层
   s.subspec 'Core' do |core|
